@@ -4,7 +4,9 @@
   "description": "The Modern GraphQL Bootcamp (with Node.js, Apollo, Prisma)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index.js --ext js,graphql --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "get-schema": "graphql get-schema -p prisma"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/harked/lab-graphql-bootcamp/issues"
   },
-  "homepage": "https://github.com/harked/lab-graphql-bootcamp#readme"
+  "homepage": "https://github.com/harked/lab-graphql-bootcamp#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "graphql-cli": "^3.0.11",
+    "graphql-yoga": "^1.17.4",
+    "nodemon": "^1.19.0",
+    "prisma-binding": "^2.3.10",
+    "uuid": "^3.3.2"
+  }
 }
