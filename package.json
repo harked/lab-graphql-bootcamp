@@ -1,0 +1,24 @@
+{
+  "name": "harked-lab-graphql-bootcamp",
+  "version": "1.0.0",
+  "description": "The Modern GraphQL Bootcamp (with Node.js, Apollo, Prisma)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harked/lab-graphql-bootcamp.git"
+  },
+  "keywords": [
+    "graphql",
+    "prisma",
+    "apollo"
+  ],
+  "author": "Randy Harkediansa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harked/lab-graphql-bootcamp/issues"
+  },
+  "homepage": "https://github.com/harked/lab-graphql-bootcamp#readme"
+}
